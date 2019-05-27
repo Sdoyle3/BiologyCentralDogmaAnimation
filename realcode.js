@@ -1,0 +1,1 @@
+window.onload=function(){var e=document.getElementById("console");console.log=function(n){e.value+=n},console.clear=function(){e.value=""},document.getElementById("startBtn").addEventListener("click",function(){var e=document.createElement("script");e.src="demo.js",document.head.appendChild(e)})};
